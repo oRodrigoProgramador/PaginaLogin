@@ -1,0 +1,168 @@
+@keyframes login{
+0% {margin-left: 0; 
+    background-color: #fa75ff;
+    border: 2px solid purple;
+    border-radius:0%;
+   }
+  
+}
+
+#telalogin{
+margin-bottom: 20px;
+margin-left: 30em;
+font-size: 25px;
+width: 250px;
+height: 250px;
+margin-top: 10em;
+animation:login 3s forwards;
+border: 2px solid #68005f;
+border-radius:12px;
+border-top-right-radius:100px;
+box-shadow: 9px 9px 15px #68005f;
+transition: all 2s linear;
+background: linear-gradient(150deg, #fb83ff,purple, rgb(30, 0, 44));
+}
+
+legend{
+    background-color: #ff3fbf;
+}
+body{
+    background-image: url('imagem/background.png');
+background-repeat: no-repeat;
+background-size: cover;
+    }
+#bolsonaro{
+    background-color:#ccc;
+    margin-bottom: 20px;
+    border:2px solid #68005f;
+margin-top: 0px;
+height: 40vw;
+width:2vh;
+}
+input{
+    font-size: 18px;
+border-radius:8px;
+box-shadow: 5px 5px 7.6px;
+}
+#enviar{
+    transition:all 0.1s linear ;
+}
+#enviar:hover{
+    font-size:20px;
+background-color:#999999;
+}
+@media screen and (min-width:2550px){
+    body{
+        background-image: url('imagem/background.png');
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    html{
+        height:100%
+    }
+    #telalogin{
+        margin-left: 40em;
+        animation:login 3s forwards;
+        margin-top: 20em;
+        width: 550px;
+        height: 430px;
+    }
+    legend{
+        font-size:50px;
+    }
+label{
+    font-size: 45px;
+}
+input{
+    font-size: 40px;
+}
+
+
+}
+   
+
+
+@media screen and (max-width:1460px){
+body{
+    background-image: url('imagem/background.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+html{
+    height:100%
+}
+#telalogin{
+    margin-left: 15em;
+    animation:login 3s forwards;
+}
+}
+@media screen and (max-width:1027px){
+    body{
+        background-image: url('imagem/background.png');
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    html{
+        height:100%
+    }
+    #telalogin{
+        margin-left: 15em;
+        animation:login 3s forwards;
+    }
+    }
+@media screen and (max-width:770px){
+    body{
+        background-image: url('imagem/background.png');
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    html{
+        height:100%
+    }
+    #telalogin{
+        margin-left: 10em;
+        animation:login 3s forwards;
+    }
+    }
+    @media screen and (max-width:430px){
+        body{
+            background-image: url('imagem/background.png');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        html{
+            height:100%
+        }
+        #telalogin{
+            margin-left: 2.5em;
+            animation:login 3s forwards;
+        }
+        }
+        @media screen and (max-width:378px){
+            body{
+                background-image: url('imagem/background.png');
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
+            html{
+                height:100%
+            }
+            #telalogin{
+                margin-left: 1.8em;
+                animation:login 3s forwards;
+            }
+            }
+            @media screen and (max-width:325px){
+                body{
+                    background-image: url('imagem/background.png');
+                    background-repeat: no-repeat;
+                    background-size:cover;
+                }
+                html{
+                    height:100%
+                }
+                #telalogin{
+                    margin-left: 10px;
+                    animation:login 3s forwards;
+                }
+                }
