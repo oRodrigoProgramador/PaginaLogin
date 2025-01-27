@@ -78,10 +78,7 @@ input{
 }
 
 
-}
-   
-
-
+}   
 @media screen and (max-width:1460px){
 body{
     background-image: url('imagem/background.png');
@@ -124,6 +121,20 @@ html{
         animation:login 3s forwards;
     }
     }
+    @media screen and (max-width:515px){
+        body{
+            background-image: url('imagem/background.png');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        html{
+            height:100%
+        }
+        #telalogin{
+            margin-left: 2.3em;
+            animation:login 3s forwards;
+        }
+        }
     @media screen and (max-width:430px){
         body{
             background-image: url('imagem/background.png');
