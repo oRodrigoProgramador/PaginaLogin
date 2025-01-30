@@ -51,6 +51,9 @@ box-shadow: 5px 5px 7.6px;
     font-size:20px;
 background-color:#999999;
 }
+    input::placeholder{
+    color: #68005f;
+}
 @media screen and (min-width:2550px){
     body{
         background-image: url('imagem/background.png');
